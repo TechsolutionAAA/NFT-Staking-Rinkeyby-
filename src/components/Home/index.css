@@ -1,0 +1,207 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* padding-top: 50px; */
+  width: 100%;
+
+  /* height: fit-content; */
+}
+.home .intro_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  background-image: linear-gradient(180deg, rgba(88, 88, 88, 0.6), rgba(78, 78, 78, 0.6)),
+    linear-gradient(180deg, transparent, #4e4e4e 94%), url(../../assets/imgs/bg.jpg);
+  background-position: 0 0, 0 0, 0 0;
+  background-size: auto, auto, contain;
+  padding: 50px 0;
+}
+
+.home .intro_section .intro_section_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 60%;
+  align-items: center;
+}
+
+.home .main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 250, 36);
+  font-size: 3.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 4px 4px 0 #161616;
+  width: 100%;
+}
+.home .sub_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #663399;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 2px 2px 0 #161616;
+  width: 100%;
+}
+
+.home .main_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: 'Press Start 2p';
+  /* text-shadow: 2px 2px 0 #161616; */
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.home .sub-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: 'Press Start 2p';
+  /* text-shadow: 2px 2px 0 #161616; */
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.buy_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1366px; */
+  /* border: #ffae41 solid 5px; */
+  /* margin-top: 20px; */
+  padding: 20px 60px;
+  /* width: 60%; */
+  background-color: #050517;
+}
+
+.buy_bearx .buy_bearx_main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #663399;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 1.5px 1.5px 0 #161616;
+  width: 100%;
+}
+
+.buy_bearx .buy_bearx_description {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffae41;
+  font-family: 'Press Start 2p';
+}
+.btn_goto_opensea {
+  border: none;
+  background-color: #663399;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 1.5re;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.stake_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1366px; */
+  /* border: 5px solid #050517; */
+  background-color: #ffae41;
+  /* margin-top: 20px; */
+  padding: 20px 60px;
+  /* width: 60%; */
+}
+
+.stake_bearx .stake_bearx_main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #663399;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 1.5px 1.5px 0 #161616;
+  width: 100%;
+}
+
+.stake_bearx .stake_bearx_description {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Press Start 2p';
+}
+.btn_goto_dapp {
+  border: none;
+  background-color: #663399;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 1.5re;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.learn_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1366px; */
+  /* border: 5px solrgb(34, 25, 12)e41; */
+  background-color: #050517;
+  /* margin-top: 20px; */
+  padding: 20px 60px;
+  /* width: 60%; */
+  /* margin-bottom: 3rem; */
+}
+
+.learn_bearx .learn_bearx_main_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #663399;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 1.5px 1.5px 0 #161616;
+  width: 100%;
+}
+
+.learn_bearx .learn_bearx_description {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffae41;
+  font-family: 'Press Start 2p';
+}
+.btn_goto_learn {
+  border: none;
+  background-color: #663399;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-size: 1.5re;
+  font-weight: bold;
+  width: 200px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}

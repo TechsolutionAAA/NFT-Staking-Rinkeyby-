@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 5px !important;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+@font-face {
+  font-family: 'Minecraftchmc';
+  src: url(../assets/fonts/Minecraftchmc.ttf);
+}
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url(../assets/fonts/PressStart.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  /* font-size: 16px; */
+  /* font-family: 'Minecraftchmc'; */
+}
+a {
+  text-decoration: none !important;
+}
+
+/* #root {
+  margin: auto;
+  height: 100vh;
+} */
+
+/* body { */
+/* background-color: #0d253b; */
+/* overscroll-behavior: none;
+  overflow: hidden; */
+/* } */
+
+/* .root-container {
+  width: 100%;
+} */
+
+.staking_bearx {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .staking_bearx_body > div {
+    display: flex !important;
+  }
+  .staking_bearx_body {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}

@@ -1,0 +1,93 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  border-color: transparent;
+  border-radius: 15px;
+  /* padding: 3px; */
+  background-color: #663399;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  margin-right: 0.5rem;
+}
+.button:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.description-content {
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+}
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+.ribbon {
+  background-color: red;
+  /* font: bold 15px sans-serif; */
+  font-size: 10px;
+  font-family: 'Press Start 2p';
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  position: relative;
+  padding: 7px 0;
+  top: 15px;
+  left: -30px;
+  width: 120px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card_font {
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+}
+
+.card_fontsize_big {
+  font-size: large;
+}
+.card_fontsize_medium {
+  font-size: medium;
+}
+
+.card_fontsize_small {
+  font-size: small;
+}
+
+.card_fontsize_smaller {
+  font-size: 0.5rem;
+}
+
+.card_fontcolor_grey {
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .bearx-card {
+    width: 80% !important;
+  }
+}

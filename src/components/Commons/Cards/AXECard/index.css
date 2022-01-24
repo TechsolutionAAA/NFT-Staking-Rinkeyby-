@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border-color: transparent;
+  border-radius: 15px;
+  padding: 3px;
+  background-color: grey;
+  color: white;
+}
+.button:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.description-content {
+  font-size: 0.9rem;
+}
+
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+
+.ribbon {
+  background-color: #ebb134;
+  font: bold 15px sans-serif;
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  position: relative;
+  padding: 7px 0;
+  top: 15px;
+  left: -30px;
+  width: 120px;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

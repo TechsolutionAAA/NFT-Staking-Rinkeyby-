@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  /* height: 100vh; */
+  height: fit-content;
+  /* background-image: linear-gradient(180deg, rgba(88, 88, 88, 0.6), rgba(247, 250, 252, 0.6)),
+    linear-gradient(180deg, transparent, #4e4e4e 94%), url(../../assets/imgs/bg.jpg);
+  background-position: 0 0, 0 0, 0 0;
+  background-size: auto, auto, contain; */
+}

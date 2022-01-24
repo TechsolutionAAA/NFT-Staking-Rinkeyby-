@@ -1,0 +1,196 @@
+.claim {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+.claim .claim-rootx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  background-color: #050517;
+}
+.claim .claim-rootx .claim-rootx-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 60%;
+}
+.claim .claim-rootx .claim-rootx-container .claim-rootx-title {
+  color: #663399;
+  font-family: 'Press Start 2p';
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  background-color: #fd7e14;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-rootx-yield-rebase {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  color: rgb(250, 250, 250);
+  font-family: 'Press Start 2p';
+  font-size: 0.5rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-rootx-yield-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  color: rgb(80, 80, 80);
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-warn {
+  color: white;
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+  margin-top: 1rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-rootx-yield-dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 560px) {
+  .claim-rootx-yield-Rewards-subdashboard {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-rootx-yield-dashboard {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .claim-rootx-mainboard {
+    display: block !important;
+  }
+  .claim-rootx-yield-description {
+    flex: 0.3;
+    width: 100%;
+    background-color: #fd7e14;
+    border-radius: 10px;
+    margin-left: 0 !important;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.claim
+  .claim-rootx
+  .claim-rootx-container
+  .claim-rootx-yield
+  .claim-rootx-yield-dashboard
+  .claim-rootx-yield-dashboard-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+
+.claim-rootx-mainboard {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+}
+
+.claim-warn-description {
+  color: white;
+  font-family: 'Press Start 2p';
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  padding: 2vh;
+}
+
+.claim-rootx-yield {
+  flex: 0.7;
+}
+
+.claim-grey-color-description {
+  color: #663399;
+  font-family: 'Press Start 2p';
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+.claim-rootx-yield-description {
+  flex: 0.3;
+  width: 100%;
+  background-color: #fd7e14;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.claim-rootx-yield-staked-subdashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.claim-rootx-yield-Rewards-subdashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.status-value {
+  text-align: center;
+}
+
+.claim-grey-color {
+  color: #663399;
+  margin-bottom: 1rem;
+}
+
+.claim .claim-rootx .claim-rootx-container .claim-rootx-yield .claim-rootx-button {
+  border: none;
+  background-color: #663399;
+  font-size: 0.7rem;
+  color: white;
+  font-family: 'Press Start 2p';
+  padding: 0.7rem 2rem;
+  margin-top: 1rem;
+}
+.normal-text {
+  text-align: left;
+  word-break: break-all;
+  font-size: 0.75rem;
+}

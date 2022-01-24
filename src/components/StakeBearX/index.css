@@ -1,0 +1,294 @@
+.staking_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  align-items: center;
+
+  /* margin-top: 3rem; */
+}
+.staking_bearx .staking_bearx_body {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  background-color: #2b2a56;
+}
+.staking_bearx .staking_bearx_body .staking_bearx_body_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* padding: 30px 50px; */
+}
+
+.staking_bearx .staking_bearx_body .staking_bearx_body_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex: 2;
+}
+
+.staking_bearx .staking_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 80%;
+  text-align: center;
+}
+
+.staking_bearx .staking_intro_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.staking_bearx .staking_intro_buttons .staking_goto_button {
+  border: none;
+  background-color: #fd7e14;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 200px;
+  /* margin-right: 1rem; */
+}
+
+.staking_bearx .staking_intro .staking_intro_title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fd7e14;
+  font-size: 2rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 1.5px 1.5px 0 #161616;
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.staking_intro_apr {
+  color: #fd7e14;
+  font-size: 3.5rem;
+  font-family: 'Press Start 2p';
+  text-shadow: 1.5px 1.5px 0 #161616;
+  width: 100%;
+  text-align: center;
+}
+
+.staking_bearx .staking_intro .staking_intro_description {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  color: #969696;
+  font-size: 1rem;
+  font-family: 'Press Start 2p';
+  width: 100%;
+  margin-bottom: 1rem;
+  word-break: break-all;
+  text-align: left;
+  align-items: self-start;
+}
+
+.staking_bearx .connect_minecraft {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+  /* border: 5px solid #fd7e14; */
+  background-color: #ccf3ff;
+  box-shadow: 3px 3px 0 0 #161616;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+.staking_bearx .connect_minecraft .connect_minecraft-title {
+  width: 100%;
+  font-size: 1rem;
+  font-family: 'Press Start 2p';
+  margin-bottom: 1rem;
+}
+
+.staking_bearx .connect_minecraft .connect_minecraft_description {
+  width: 100%;
+  font-size: 0.8rem;
+  font-family: 'Press Start 2p';
+  line-height: 1.5rem;
+  color: #333;
+}
+
+.staking_bearx .connect_minecraft .connect_minecraft_description p {
+  margin-bottom: 0.3rem;
+}
+
+.staking_bearx .unstaked_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  /* border: 5px solid #fd7e14; */
+  background-color: #050517;
+  /* box-shadow: 3px 3px 0 0 #161616; */
+  padding: 20px;
+  /* margin-bottom: 1rem; */
+  /* margin-top: 3rem; */
+}
+
+.staking_bearx .unstaked_bearx .unstaked_bearx_title {
+  width: 100%;
+  font-size: 1rem;
+  color: #fd7e14;
+  font-family: 'Press Start 2p';
+  margin-bottom: 1rem;
+  padding: 0 50px;
+}
+
+.staking_bearx .unstaked_bearx .unstaked_bearx_description {
+  width: 100%;
+  font-size: 0.8rem;
+  font-family: 'Press Start 2p';
+  line-height: 1.5rem;
+  color: rgb(155, 155, 155);
+  padding: 0 50px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 0.1;
+  width: 100%;
+}
+.allbutton {
+  width: 150px !important;
+  padding: 0.5rem 1rem !important;
+  /* font-size: 0.7rem !important; */
+}
+.staking_bearx .unstaked_bearx .unstaked_bearx_section {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Press Start 2p';
+}
+
+.unstaked_bearx_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card_fontsize_smaller {
+  font-size: 0.5rem;
+}
+.staking_bearx .staked_bearx {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  /* border: 5px solid #fd7e14; */
+  background-color: #2b2a56;
+  /* box-shadow: 3px 3px 0 0 #161616; */
+  padding: 20px;
+  /* margin-bottom: 1rem; */
+  /* margin-top: 3rem; */
+}
+
+.staking_bearx .staked_bearx .staked_bearx_title {
+  width: 100%;
+  font-size: 16px;
+  color: #fd7e14;
+  font-family: 'Press Start 2p';
+  margin-bottom: 1rem;
+  padding: 0 50px;
+}
+
+.staking_bearx .staked_bearx .staked_bearx_description {
+  width: 100%;
+  font-size: 0.8rem;
+  font-family: 'Press Start 2p';
+  line-height: 1.5rem;
+  color: rgb(155, 155, 155);
+  padding: 0 50px;
+}
+
+.staking_bearx .staked_bearx .staked_bearx_section {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Press Start 2p';
+}
+
+@media screen and (max-width: 400px) {
+  .staking_intro_title,
+  .sub-title {
+    margin-top: 5%;
+    justify-content: center !important;
+    text-align: center !important;
+    font-size: 1rem !important;
+  }
+  .staking_intro_apr {
+    font-size: 2rem !important;
+  }
+  .sub-title {
+    flex: 0.9;
+  }
+
+  .unstaked_bearx {
+    text-align: center;
+    padding: 0 !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    width: 80%;
+  }
+
+  .staked_bearx {
+    padding: 0 !important;
+  }
+
+  .staked_bearx_description {
+    padding: 0 !important;
+    width: 80% !important;
+  }
+
+  .unstaked_bearx > div {
+    width: 80%;
+  }
+
+  .full-width {
+    padding: 0 !important;
+    width: 80% !important;
+  }
+
+  .normal-text {
+    text-align: left;
+    word-break: break-all;
+  }
+
+  .align-center {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}

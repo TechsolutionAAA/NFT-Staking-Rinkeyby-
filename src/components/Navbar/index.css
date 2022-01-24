@@ -1,0 +1,159 @@
+body {
+  font-family: 'Lo-Res';
+}
+
+.my_navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #14181d;
+  height: 4rem;
+  width: 100%;
+
+  color: white;
+  /* padding: 0 20%; */
+  font-size: 2%;
+  font-family: 'Minecraftchmc', sans-serif;
+}
+
+.my_navbar .bearx_logo {
+  margin-right: 2rem;
+}
+.my_navbar .nav_btn {
+  color: white;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+.my_navbar .nav_connect_btn {
+  border: #fd7e14 solid 2px;
+  border-radius: 0 20px 0 20px;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.nav_connect_btn_connected {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.my_navbar_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* max-width: 1366px; */
+  width: 100%;
+  margin: auto;
+}
+
+.my_navbar_container .my_navbar_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd7e14;
+  width: 100%;
+}
+
+.my_navbar_container .my_navbar_social .my_navbar_discord {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  color: #5560ec;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.my_navbar_container .my_navbar_social .my_navbar_twitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #2cb2fe;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.my_navbar_container .my_navbar_social .my_navbar_medium {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.font_color_white {
+  color: white;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.menu-bar {
+  display: flex;
+}
+
+.responsive-menu-bar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -50%;
+  flex-direction: column;
+  background-color: #222;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  transition: 0.5s;
+}
+
+.responsive-connect {
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 2rem !important;
+  color: #ffffff;
+}
+
+.responsive-bars {
+  display: none;
+}
+
+.btn-responsive {
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.closeResonsive {
+  display: flex;
+}
+
+.responsive-logo {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .my_navbar {
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .responsive-bars {
+    display: flex;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+  .responsive-menu-bar {
+    display: flex;
+  }
+}
